@@ -1,0 +1,48 @@
+body {
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+}
+input {
+  padding: 8px;
+  border: 5px solid rgb(121, 101, 101);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+button {
+  margin-left: 10px;
+  background-color: rgb(38, 214, 38);
+  padding: 13px 60px;
+  border-radius: 8px
+}
+
+ul {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.results-container {
+border: 2px solid;
+padding: 0px 350px;
+}
+.data {
+  width:100px;
+  height:100px;
+  margin-top: 5px;
+}
+
+.data img {
+  height: 80%;
+  width:80%;
+  object-fit: cover;
+}
